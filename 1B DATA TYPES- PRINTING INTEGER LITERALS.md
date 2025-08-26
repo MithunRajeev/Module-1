@@ -1,21 +1,28 @@
-# Experiment No: 1B- Data Types – Printing Integer Literals
+# Experiment No: 1B- Data Types – Print the value and type of the variable
 
 ## AIM  
-To write a Python program to print the following integer literal: 123456789.
+To Write a Python program to print the value and type of the variable.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Initialize the integer literal `123456789`.  
-3. Use the `print()` function to display the number `123456789`.  
-4. Terminate the program.
+1. Read input a from the user as a string.
+2. Use eval() to convert a to its actual data type.
+3. Store the result in evaluated_value.
+4. Print the value and its data type.
 
 ## PROGRAM
-    integer = 123456789
-    print(integer)
-    
-## OUTPUT
-![image](https://github.com/user-attachments/assets/3aedb066-d847-40c6-b152-b8b4fafd26a5)
+```python
+a = input()
 
+# Use eval() to evaluate the input and determine its actual type
+evaluated_value = eval(a)
+
+# Print the value and its type
+print(f"Value = {evaluated_value}")
+print(f"type = {type(evaluated_value)}")
+
+```
+## OUTPUT
+![Screenshot 2025-04-26 143308](https://github.com/user-attachments/assets/f0505a59-f5d2-4b8e-baf8-05036661ebfe)
 
 ## RESULT
-Thus, the python program to print the given integer literals are done and verified successfully.
+Thus To Write a Python program to print the value and type of the variable has been successfully implemented.
