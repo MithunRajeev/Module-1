@@ -1,43 +1,28 @@
-## Experiment No: 1d – Conditional Statements
+## Experiment No: 1d – Conditional Statements- Checking Vowel or not
 
 ## AIM  
-
-Write a python program to check whether the given number is even or odd using If..else statements.
-
-## ALGORITHM
-
-Start
-
-Input an integer number from the user.
-
-Check if number % 2 == 0:
-
-If yes, then the number is Even.
-
-If no, then the number is Odd.
-
-Output "EVEN" or "ODD" based on the check.
-
-End
+To Write a Python program to check whether the given character is a vowel or not using if..else statement
+## ALGORITHM  
+1. Begin the program.  
+2. Take a character input from the user
+3. Convert the character to lowercase
+4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
+5. If it is a vowel, display "The given character is a vowel"
+6. Otherwise, display "The given character is NOT a vowel"
+4. Terminate the program.
 
 ## PROGRAM
 ```
-def check_even_odd(number):
-    if number % 2 == 0:
-        return "EVEN"
-    else:
-        return "ODD"
+a=input()
+if(a=='A' or a=='E' or a=='I' or a=='O' or  a=='U'):
+      print("The given character is a vowel")
+else:
+    print("The given character is NOT a vowel")
 
-# Input from the user
-number = int(input())
-
-# Check and print whether the number is even or odd
-result = check_even_odd(number)
-print(result)
 ```
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/763057f0-7c88-453b-b638-fd83ea03f4fb)
+![image](https://github.com/user-attachments/assets/8fbdb3c6-9191-460d-b0b0-227d6a24748d)
 
 ## RESULT
-Thus the python program for checking the given number is even or odd using If..else statements is successfully verified.
+Thus the Python program to check whether the given character is a vowel or not using if..else statement was implemented successfully.
