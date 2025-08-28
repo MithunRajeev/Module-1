@@ -1,27 +1,28 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Comparing Ages of Two Persons
+# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
 
 ## AIM
-To Write a python program to read the age of two persons and find who is elder and younger
+To write a Python program for adding two complex numbers, and get the user input .
 
 ## ALGORITHM
-1. Read age1 and age2 as integers from the user.
-2. Compare age1 and age2.
-3. If age1 is greater, print that person 1 is elder and person 2 is younger.
-4. Otherwise, print that person 2 is elder and person 1 is younger.
+1. Begin the program.
+2.To get two complex numbers as input from the user.
+3. Print the complex numbers entered by the user.
+4. Perform the addition of the two complex numbers using the `+` operator.
+5. Print the sum of the two complex numbers.
+6. Terminate the program.
+
 ## PROGRAM
-```python
-age1=int(input())
-age2=int(input())
-if age1>age2:
-    print("person 1 elder ")
-    print("person 2 is younger")
-else:
-    print("person 2 elder")
-    print("person 1 younger")
+```
+c1=2+3j
+
+c2=4+7j
+c3=c1+c2
+print(c3)
 ```
 
 ## OUTPUT
-![Screenshot 2025-04-26 143657](https://github.com/user-attachments/assets/1f78f3f2-26e8-47cb-b817-b2062f78796b)
+![image](https://github.com/user-attachments/assets/7563e6a4-8910-4067-8459-6036d1861292)
+
 
 ## RESULT
-Thus a python program to read the age of two persons and find who is elder and younger has been implemented and executed successfully.
+Thus the python program for  adding two complex numbers has been implemented and executed successfully.
