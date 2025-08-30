@@ -1,21 +1,31 @@
 # Experiment No: 1B- Data Types – Printing Integer Literals
 
 ## AIM  
-To write a Python program to print the following integer literal: 123456789.
+To write a Python program to print the following integer literals: 123, 456, 789.
 
 ## ALGORITHM  
 1. Begin the program.  
-2. Initialize the integer literal `123456789`.  
-3. Use the `print()` function to display the number `123456789`.  
+2. Initialize the integer literals `123`, `456`, and `789`.  
+3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
 4. Terminate the program.
 
 ## PROGRAM
-    integer = 123456789
-    print(integer)
-    
-## OUTPUT
-![image](https://github.com/user-attachments/assets/3aedb066-d847-40c6-b152-b8b4fafd26a5)
+### python
+```
+# Reg.No-212222060159
+# Name-MITHUNRAJEEV V
+# Write your code here
+num1 = 123
+num2 = 456
+num3 = 789
 
+print(num1)
+print(num2)
+print(num3)
+
+```
+## OUTPUT
+![image](https://github.com/user-attachments/assets/aac1fecc-67b2-45e5-9c84-b9ee78086423)
 
 ## RESULT
-Thus, the python program to print the given integer literals are done and verified successfully.
+The program was executed successfully. It printed the integer literals 123, 456, and 789 as expected.
