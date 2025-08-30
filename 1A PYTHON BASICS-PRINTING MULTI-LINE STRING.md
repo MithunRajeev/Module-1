@@ -34,4 +34,4 @@ print(string_double_quotes)
 ![image](https://github.com/user-attachments/assets/5bd455ae-5720-440e-8f30-23727e035765)
 
 ## RESULT
-The program was successfully executed. It printed the string across multiple lines using both triple single quotes (''') and triple double quotes (""").
+The program was successfully executed. It printed the string across multiple lines using both triple single quotes and triple double quotes.
